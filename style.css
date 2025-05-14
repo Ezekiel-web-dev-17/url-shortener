@@ -350,6 +350,7 @@ footer img:hover {
   body {
     min-width: 375px;
     width: 100%;
+    overflow-x: hidden;
   }
 
   nav {
