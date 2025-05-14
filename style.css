@@ -72,6 +72,7 @@ nav li:hover,
   border-radius: 30px;
   padding: 8px 20px;
   cursor: pointer;
+  color: var(--Grayish-Violet);
 }
 
 header {
@@ -234,7 +235,7 @@ hr {
   position: static;
   margin-top: 250px;
   margin-bottom: 230px;
-  height: 10px;
+  height: 15px;
   background: var(--Cyan);
   border: 0;
 }

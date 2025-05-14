@@ -47,6 +47,7 @@ async function shortenUrl(longUrl) {
     const data = await response.text();
 
     // Display the shortened URL
+    saveToLocalStorage(longUrl, data);
     return displayResult(longUrl, data);
   } catch (error) {
     showError(error.message || "Something went wrong");
