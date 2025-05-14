@@ -354,7 +354,7 @@ footer img:hover {
 
   nav {
     overflow-x: hidden;
-    padding-inline: 20px;
+    padding-inline: 10px;
     display: flex;
     justify-content: space-between;
   }
@@ -403,7 +403,7 @@ footer img:hover {
   }
 
   header {
-    padding-inline: 20px;
+    padding-inline: 10px;
     padding-block: 380px 100px;
     display: flex;
     flex-direction: column-reverse;
@@ -463,7 +463,7 @@ footer img:hover {
 
   .statistics {
     padding-top: 80px;
-    padding-inline: 20px;
+    padding-inline: 10px;
     padding-bottom: 290px;
   }
 
