@@ -349,7 +349,7 @@ footer img:hover {
 @media (width <= 375px) {
   body {
     min-width: 375px;
-    width: 100%;
+    width: 100dvw;
     overflow-x: hidden;
   }
 
