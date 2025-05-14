@@ -16,7 +16,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: var(--Very-Dark-Violet);
 }
 
 body {
@@ -370,9 +369,9 @@ footer img:hover {
     border-radius: 10px;
     width: 89%;
     height: 360px;
-    transform: translateX(490px);
+    transform: translateX(-490px);
     background: var(--Very-Dark-Blue);
-    color: white;
+    color: #fff;
     z-index: 5;
   }
 
@@ -388,6 +387,10 @@ footer img:hover {
     width: 100%;
     padding-top: 30px;
     border-top: 1px solid var(--Gray);
+  }
+
+  .link-btn div button {
+    color: #fff;
   }
 
   .height {
