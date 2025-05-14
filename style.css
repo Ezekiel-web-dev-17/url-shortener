@@ -407,6 +407,7 @@ footer img:hover {
     padding-block: 380px 100px;
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
   }
 
   header img {
