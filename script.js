@@ -4,6 +4,10 @@ document.querySelector(".hamburger").addEventListener("click", () => {
   nav.classList.toggle("height");
 });
 
+document.querySelector("main").addEventListener("click", () => {
+  nav.classList.remove("height");
+});
+
 document.querySelectorAll(".link-btn li").forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("height");

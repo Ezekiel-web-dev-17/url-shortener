@@ -346,6 +346,22 @@ footer img:hover {
   cursor: pointer;
 }
 
+button:active {
+  animation: click 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+@keyframes click {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (width <= 375px) {
   body {
     min-width: 375px;
@@ -465,7 +481,7 @@ footer img:hover {
   .statistics {
     padding-top: 80px;
     padding-inline: 10px;
-    padding-bottom: 290px;
+    padding-bottom: 240px;
   }
 
   .statistics h2 {
