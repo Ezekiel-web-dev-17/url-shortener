@@ -1,4 +1,6 @@
 // #### URL SHORTENING API LANDING PAGE #### //
+alert(window.innerWidth);
+alert(typeof window.innerWidth);
 const nav = document.querySelector(".link-btn");
 document.querySelector(".hamburger").addEventListener("click", () => {
   nav.classList.toggle("height");
@@ -69,9 +71,23 @@ function displayResult(originalUrl, shortUrl) {
   resultElement.className = "result-item";
 
   resultElement.innerHTML = `
-        <div class="original-url">${originalUrl
-          .toString()
-          .slice(0, 28)}...</div>
+        <div class="original-url">${
+          window.innerWidth >= 1200
+            ? originalUrl
+                .toString()
+                .slice(
+                  0,
+                  originalUrl.toString().length < 60
+                    ? originalUrl.toString().length
+                    : 60
+                )
+            : originalUrl.toString().slice(0, 28)
+        }${
+    originalUrl.toString().length < (window.innerWidth <= 375 ? 28 : 60) &&
+    (window.innerWidth <= 375 || window.innerWidth >= 1200)
+      ? ""
+      : "..."
+  }</div>
         <div class="shortened-url">
             <a href="https://${shortUrl}" target="_blank">${shortUrl}</a>
             <button class="copy-btn">Copy</button>

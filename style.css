@@ -313,10 +313,10 @@ footer img:hover {
 }
 
 .result-item {
-  width: 73%;
+  width: 78.5%;
   margin-inline: 180px;
   padding: 20px 80px;
-  padding-right: 20px;
+  padding-inline: 20px;
   margin-bottom: 30px;
   border-radius: 15px;
   background: #fff;
