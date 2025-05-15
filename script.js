@@ -1,6 +1,4 @@
 // #### URL SHORTENING API LANDING PAGE #### //
-alert(window.innerWidth);
-alert(typeof window.innerWidth);
 const nav = document.querySelector(".link-btn");
 document.querySelector(".hamburger").addEventListener("click", () => {
   nav.classList.toggle("height");
